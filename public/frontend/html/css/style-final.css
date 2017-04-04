@@ -1,0 +1,461 @@
+/*1. User/ Header: //////////////////////////////////////////////////////*/
+	/**** Padding đồng nhất toàn bộ popup.*/
+.t-nd-popup {
+	font-size: 9.5pt;
+	margin: 19px 0px;
+}
+input.t-ip-form1::-webkit-input-placeholder {
+    font-family: 'Roboto';
+    color: #7f7f7f;
+}
+input.t-ip-form1:-moz-placeholder {
+	font-family: 'Roboto';
+    color: #7f7f7f;
+}
+input.t-ip-form1::-moz-placeholder {
+	font-family: 'Roboto';
+    color: #7f7f7f;
+}
+input.t-ip-form1:-ms-input-placeholder {
+	font-family: 'Roboto';
+    color: #7f7f7f;
+}
+	/*Tích điểm : Style lại báo lỗi.*/
+#d-popup-tra-cuu p {
+	text-align: left;
+	margin-bottom: 18px !important;
+	margin-top: -6px;
+	color: #c9302c !important;
+}
+	/*Tìm kiếm / Giỏ hàng chỉnh lại shadow.*/
+.t-cart-content {
+	box-shadow: none;
+}
+.t-box-cart, .t-box-tim-kiem {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+}
+	/*Tìm kiếm : style Kết quả đề xuất.*/
+.t-box-tim-kiem ul li a img {
+	height: auto;
+	margin-top: -15px;
+}
+	/*Catagory_ Padding ảnh sản phẩm*/
+.t-box-tim-kiem .d-list-xem img, .t-box-cart .d-list-xem img {
+	padding: 0 !important;
+}
+.tan-font-RB {
+	text-align: left !important;
+}
+.t-box-tim-kiem ul li {
+	margin-bottom: 2px;
+    padding-top: 15px;
+}
+	/*Giỏ hàng : Ảnh sp sai tỉ lệ.*/
+.cart-content ul.cart-list a img {
+    width: 79px;
+    height: auto;
+}
+.cart-content ul.cart-list {
+	margin-bottom: 14px;
+}
+.t-box-cart ul li p {
+	padding-top: 15px;
+}
+	/*Giỏ hàng : Di chuột vào chữ " Xem giỏ hàng " > Màu bị đổi.*/
+.abc .t-box-cart .t-buttons a:hover {
+	color: #fff !important;
+}
+	/*Tra cứu đơn hàng : Trường hợp nhiều đơn hàng 	 Style lại giao diện khi có 1 đơn hàng. */
+#modal-popup-tracuu1 .btn.btn-small {
+	margin-bottom: 5px !important;
+	margin-top: 3px;
+}
+#modal-popup-tracuu1 .t-popup-padding-rp #d-ket-qua .danhsach-donhang div:last-child {
+	border-bottom: none !important;
+}
+#modal-popup-tracuu1 .t-popup-padding-rp #d-ket-qua span.dsdh-title {
+    font-family: 'Roboto Bold';
+    margin-right: 3px;
+}
+	/*Vừa xem : line sp.*/
+.t-box-vua-xem ul li a img {
+	height: auto;
+	margin-top: -15px;
+}
+.t-box-vua-xem {
+	border-bottom: none !important;
+	padding: 10px 0px 10px 0px;
+}
+.t-box-tim-kiem {
+	padding: 10px 0px 10px 20px;
+}
+/*.t-box-vua-xem {
+	border-bottom: none !important;
+}*/
+.t-box-vua-xem ul li {
+	margin-bottom: 0px;
+    padding-top: 15px;
+}
+	/*Khi reponsive : Danh mục sp bổ xung nút xổ */
+@media (min-width: 992px) {
+	.t-catagory .menu2 .dropdown-menu2 {
+		display: none;
+	}
+}
+@media (max-width: 991px) {
+	.t-catagory .menu2 .dropdown-menu2 {
+		line-height: 23px;
+	    margin-right: 10px;
+	    font-size: 13pt;
+	}
+	.t-catagory .menu2 ul li:nth-child(6) {
+		border-bottom: solid 1px #eeeeee !important;
+	}
+	.t-catagory .menu2 ul li:last-child {
+		border-bottom: none !important;
+	}
+	.t-catagory .menu2 ul li i.dropdown-menu2-rotate {
+		-ms-transform: rotate(180deg);
+	    -webkit-transform: rotate(180deg);
+	    transform: rotate(180deg);
+	}
+	/*Style lại tìm kiếm khi reponsive*/
+	.search-form .search-input {
+		color: rgba(255, 255, 255, 0.8);
+	}
+	#search-header .mfp-close {
+		color: rgba(255, 255, 255, 0.8) !important;
+	}
+}
+/*Placeholder " Nhập nội dung bình luận ... " font thường.*/
+.t-comment-p input::-webkit-input-placeholder {
+    font-family: 'Roboto';
+}
+.t-comment-p input:-moz-placeholder {
+	font-family: 'Roboto';
+}
+.t-comment-p input::-moz-placeholder {
+	font-family: 'Roboto';
+}
+.t-comment-p input:-ms-input-placeholder {
+	font-family: 'Roboto';
+}
+	/*popup*/
+textarea.tan-textarea-binhluan::-webkit-input-placeholder {
+    font-family: 'Roboto';
+}
+textarea.tan-textarea-binhluan:-moz-placeholder {
+	font-family: 'Roboto';
+}
+textarea.tan-textarea-binhluan::-moz-placeholder {
+	font-family: 'Roboto';
+}
+textarea.tan-textarea-binhluan:-ms-input-placeholder {
+	font-family: 'Roboto';
+}
+#modal-popup-binhluan .t-xd-pu {
+	margin-top: 11px;
+}
+#modal-popup-binhluan .tan-textarea-binhluan {
+	margin-top: 15px;
+}
+ /*Popup nhận thông báo chưa đúng thiết kế, bỏ trường số điện thoại*/
+#d-form-het-hang input.t-ip-form1:nth-child(2) {
+	display: none;
+}
+#d-form-het-hang input.t-ip-form1 {
+	margin: 0;
+}
+#d-form-het-hang input.t-ip-form1:first-child {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#d-form-het-hang label:nth-child(4) {
+	margin-top: 4px !important;
+	padding-left: 20px;
+}
+#d-form-het-hang label:nth-child(4) input {
+	margin-bottom: 0 !important;
+	margin-left: -20px;
+}
+#d-form-het-hang .t-xd-pu {
+	margin-top: 8px;
+}
+
+/*View ảnh chi tiết chưa có next*/
+.popup-vid-controls-next:hover path {
+    fill: #fff;
+    box-shadow: 10px 10px 5px #888888;
+}
+.popup-vid-controls-prev:hover path {
+    fill: #fff;
+    box-shadow: 10px 10px 5px #888888;
+}
+.popup-vid-controls-next path {
+    fill: #fff;
+    box-shadow: 10px 10px 5px #FFFFFF;
+}
+.popup-vid-controls-prev path {
+    fill: #fff;
+    box-shadow: 10px 10px 5px #FFFFFF;
+}
+.vid-style .mfp-close {
+	font-style: normal;
+    background-color: #000 !important;
+    color: #fff !important;
+    font-size: 18px;
+    text-decoration: none;
+    outline: none;
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    right: -11px;
+    top: -11px;
+    border-radius: 50%;
+    opacity: 1;
+        padding-top: 1px;
+}al-popup-vid .wrap-div {
+	position: relative;
+}
+#modal-popup-vid .popup-vid-controls-prev, #modal-popup-vid .popup-vid-controls-next {
+	width: auto;
+	height: 34px;
+	top: calc(50% - 20px);
+	cursor: pointer;
+	opacity: 0.4;
+	transition: 0.5s;
+}#modal-popup-vid .popup-vid-controls-prev:hover, #modal-popup-vid .popup-vid-controls-next:hover {
+	opacity: 0.95;
+}
+#modal-popup-vid .popup-vid-controls-prev {
+	position: absolute;
+	left: 15px;
+}
+#modal-popup-vid .popup-vid-controls-next {
+	position: absolute;
+	right: 15px;
+}
+/*Catagory - Kích thước ảnh frame màu*/
+.div_img li {
+	height: 21px;
+    width: 21px;
+    margin-right: 4px;
+}
+
+/*Popup add vào giỏ hàng*/
+#modal-popup-cart .center-col p:first-child {
+	margin-bottom: 0 !important;
+}
+
+
+/*BODY/CART*/
+#d-list-shopingcart .t-td-img {
+	padding-top: 0px !important;
+}
+.t-td-img img {
+	width: 100% !important;
+}
+#d-list-shopingcart .t-td-img img {
+	height: auto;
+}
+.t-table > tbody > tr > td.t-td-sl {
+	padding: 40px 30px !important;
+}
+.t-table > tbody > tr > td.t-gia-gio {
+	padding-top: 13px;
+}
+
+.t-sel-ct {
+	margin-top: 14px;
+}
+.t-cart-form form {
+	padding: 19px 20px 25px 20px !important;
+}
+@media (max-width: 767px) {
+	.t-cart-form form {
+		padding: 19px 10px 25px 10px !important;
+	}
+}
+	
+	/*Responsive*/
+@media (max-width: 991px) and (min-width: 768px) {
+	.t-cart-form>form {
+		margin-bottom: 41px;
+	}
+}
+@media (max-width: 767px) {
+	.t-pd-left-big-sl {
+		padding-left: 40px !important;
+	}
+	.t-pd-left-big-tt {
+		padding-left: 0 !important;
+	}
+	.t-table {
+		margin-bottom: 10px !important;
+	}
+	.table > tbody > tr > td {
+		vertical-align: middle;
+	}
+	.t-table > tbody > tr > td.t-gia-gio {
+		padding-top: 0px !important;
+	}
+	.t-table > tbody > tr > td.t-gia-gio {
+    	padding-top: 13px;
+	}
+}
+@media (max-width: 600px) {
+	.t-pd-left-big-tt, .t-gia-gio {
+		display: none;
+	}
+}
+@media (max-width: 490px) {
+	.t-pd-left-big-sl, .t-table > tbody > tr > td.t-td-sl {
+		padding-left: 10px !important;
+		padding-right: 10px !important;
+	}
+	.t-td-sl .t-padding-10 {
+		padding-left: 0;
+	}
+	.t-table tr th:last-child {
+		padding: 10px;
+	}
+}
+@media (min-width: 992px) {
+	.t-cart-form form {
+		margin-bottom: 33px;
+	}
+}
+
+/*BODY/ODER*/
+.tan-label:before {
+	content: "";
+    top: 3px;
+    left: 0;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    margin-right: 0px;
+    position: absolute;
+    background-color: #75005f;
+    border: solid 2px #fff !important;
+    border-radius: 50%;
+    box-shadow: 0px 0px 4pt 0px rgba(0, 0, 0, 0.35);
+}
+.tan-form input, .tan-form textarea {
+	margin-bottom: 0px !important;
+}
+.tan-submit-font, .tan-dathang {
+	margin-bottom: 29px;
+	margin-top: 6px;
+}
+
+.tan-conten-cantop {
+	margin-top: 0 !important;
+}
+.tan-conten-sanpham {
+	margin-top: 15px;
+}
+.tan-conten {
+	padding-bottom: 5px !important;
+}
+.tan-phivanchuyen table tr td:first-child {
+	padding-bottom: 5px;
+}
+.tan-phivanchuyen table tr:last-child td:first-child {
+	padding-bottom: 0px;
+    font-family: 'Roboto Bold';
+}
+
+@media (max-width: 991px) {
+	.tan-title {
+		padding-right: 15px !important;
+	}
+}
+
+/*BODY/PAY*/
+.t-lorem a:hover {
+	color: #75005f;
+	transition: 0s !important;
+}
+
+/*BODY/PRO...*/
+.ajax-d-add-cart {
+	cursor: pointer;
+	margin-bottom: 23px !important;
+}
+.h-hethang .ajax-h-btn-hethang {
+	cursor: pointer;
+	margin-bottom: 35px;
+}
+
+/*CART*/
+.show_cart .d-item1 .t-cart-form #d-form-cart table tr {
+	font-size: 10.5pt;
+}
+.show_cart .d-item1 .t-cart-form #d-form-cart table tr:last-child {
+	display: none;
+}
+.show_cart .d-item1 .t-cart-form #d-form-cart .t-sel-ct table tr:first-child {
+	display: none !important;
+}
+.show_cart .d-item1 .t-cart-form #d-form-cart .t-sel-ct table tr:last-child {
+	display: table-row;
+}
+.show_cart .d-item1 .t-cart-form #d-form-cart tr.t-total-cart {
+	display: table-row !important;
+}
+.show_cart .t-td-sl span #d-gam {
+	font-family: 'Roboto';
+}
+.show_cart .d-item2 {
+	margin-top: 30px;
+    margin-bottom: 30px;
+}
+.show_cart .d-item2
+.show_cart .d-item2 span {
+	font-size: 10pt !important;
+}
+.show_cart .d-item2 div:nth-child(2) {
+	width: 160px !important;
+}
+.show_cart .d-item2 div:nth-child(2) a {
+	text-transform: none !important;
+}
+@media (max-width: 991px) and (min-width: 768px) {
+	.show_cart .d-item2 div:nth-child(2) {
+		margin-bottom: 52px !important;
+	}
+}
+/*Popup cấu hình giảm giá*/
+.t-popup2 table {
+	color: #595959;
+}
+
+/*Loading...*/
+.loader {
+    width: 21px;
+    animation: spin 1.3s linear infinite;
+    margin: auto;
+	margin-top: -48px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/*Background popup*/
+.t-popup {
+	box-shadow: 0px 0px 64px 0px rgba(0, 0, 0, 0.6);
+}
+
+/*CART/ select height*/
+@media (max-width: 767px) {
+	.t-select-style, .t-select-style {
+		height: 39px !important;
+	}
+	.t-sel-ct>div>select {
+		padding: 8px 11px !important;
+	}
+}

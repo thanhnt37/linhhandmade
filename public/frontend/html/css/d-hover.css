@@ -1,0 +1,35 @@
+.navbar-nav li a:hover {
+	color: #75005f !important;
+}
+.x-search {
+    margin-top: -52px;
+    margin-right: 0px;
+    font-size: 12pt;
+    color:#404040;
+}
+.x-search:hover {
+	cursor: pointer;
+}
+/*hover icon footer*/
+.footer-social a i:hover {
+	color: #75005f;
+	transition: 0 !important;
+}
+/* footer bottom */
+.copyright {
+	text-transform: none !important;
+	font-size: 8pt;
+}
+
+/*Responsive*/
+/*@media (max-width: 991px) {
+	footer {
+		text-align: center;
+	}
+}*/
+.buttons:hover a.xyz {
+	color: #fff !important;
+}
+.t-cart-content[data-num="0"]{
+	display: none !important;
+}

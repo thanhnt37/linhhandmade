@@ -1,0 +1,85 @@
+.left-slide-bar {
+	margin-top:50px; 
+	margin-bottom: 48px;
+}
+.left-slide-bar > p:first-child{
+	font-size: 14pt;
+	font-family: Roboto Bold;
+	margin-bottom: 17px;
+	color: #0d0d0d;
+}
+.left-slide-bar span {
+	font-size: 10pt;
+	font-family: Roboto;
+	margin-bottom: 20px;
+}
+.left-slide-bar img {
+	margin: 33px 0px 21px 0px;
+	width: 100%;
+}
+.right-slide-bar {
+	margin-top: 50px; 
+}
+.tan-canle{
+	margin-left: 30px;
+}
+.right-slide-bar p {
+	font-size: 10.5pt;
+	font-family: Roboto Bold;
+	margin-bottom: 11px; 
+}
+.right-slide-bar ul li {
+	margin-bottom:13px;
+	
+}
+.right-slide-bar>nav>ul>li:last-child{
+	margin-bottom: 25px;
+}
+.right-slide-bar ul li a {
+	font-size: 10pt;
+	font-family: Roboto;
+}
+.t-blog{
+	position: relative;
+}
+.t-blog a{
+	color: #BC0098;
+}
+.t-blog a::before {
+	content: "";
+	position: absolute;
+	background: #BC0098;
+	width: 3px;
+	height: 26px;
+	left: -18px;
+}
+
+
+
+@media (max-width: 767px){
+	.tan-canle{
+		margin-left: 0px;
+	} 
+	.right-slide-bar {
+		margin-top: 10px;
+	}
+}
+
+
+/* RESPONSIVE edit by duy */
+@media (max-width: 767px) {
+	.t-blog a::before {
+		left: -13px;
+	}
+
+	.left-slide-bar {
+		margin-top: 30px;	
+	    margin-bottom: 20px;
+	}
+}
+/* Responsive ONLY IPAD */
+@media (max-width: 991px) and (min-width: 768px) {
+	.left-slide-bar {
+	    margin-bottom: 33px;
+	}
+}

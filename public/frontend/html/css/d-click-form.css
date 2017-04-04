@@ -1,0 +1,34 @@
+.t-ip-form1:focus {
+	border-bottom: solid 2px #75005f !important;
+}
+.t-xd-pu{
+	transition: 0.2s;
+}
+.t-xd-pu:hover {
+	opacity: 0.9;
+}
+
+.t-buttons {
+	cursor: pointer;
+}
+.t-buttons:hover {
+	opacity: 0.9;
+}
+
+
+.t-btn:hover {
+	opacity: 0.9;
+}
+
+.tan-submit-font input:hover {
+	opacity: 0.9;
+}
+
+.highlight-button-dark {
+	background-color: #75005f;
+}
+.highlight-button-dark:hover {
+	background-color: #75005f;
+	color: #fff;
+	opacity: 0.9;
+}

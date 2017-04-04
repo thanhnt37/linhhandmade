@@ -1,0 +1,117 @@
+.stag-box{
+	background-color: #F0F0F0;
+	padding: 0px 0px 0px 0px;
+	background-color: #F0F0F0 !important;
+    font-size: 10pt !important;
+    border: 1px solid #E7E7E7 !important;
+    min-height: 2.6em;	
+}	
+.stag-body{
+	position: relative;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.stag-body:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.stag-item {
+    border: 0px solid #EDE7F6;
+    float: left;
+    display: block;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding: 2px 5px 2px 5px;
+    border-radius: 4px;
+    z-index: 1000;
+    cursor: default;
+}
+.stag-name {
+    position: relative;
+    float: left;
+    display: block;
+    font-size: 10pt;
+    font-family: "Roboto";
+}
+.stag-close {
+    width: 16px;
+    height: 18px;
+    display: block;
+    float: right;
+    cursor: pointer;
+    position: relative;
+    color: #bfbfbf !important;
+}
+.stag-close:hover{
+	 color: #404040 !important;
+}
+.stag-close span{
+    font-size: 16px;
+    line-height: 17px;
+    padding-left: 4px;
+    font-family: Roboto;
+}
+.s-close-user {
+    width: 16px;
+    height: 16px;
+    transform: rotate(225deg);
+    -webkit-transform: rotate(225deg);
+    display: block;
+    float: right;
+    font-size: 14pt;
+    font-family: "Roboto";
+    color: #D1C4E9;
+    position: absolute;
+    text-align: center;
+    top: 5px;
+}
+.s-containner-list-user-ajax {
+    position: relative;
+    display: block;
+    float: left;
+}
+.stag-input {
+    outline: none;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 2px 5px 2px 10px;
+    font-size: 10pt;
+    font-family: "Roboto";
+    border: 0px !important;
+    background-color: #FAFAFA;
+    max-width: 130px;
+}
+.stag-suggest{
+	position: absolute;
+	display: none;
+	background-color: #fff;
+	border: 1px solid #E7E7E7;
+	width: 100%;
+	z-index: 99;
+	max-height: 150px;
+	overflow-y: scroll;
+	top: 100%;
+}
+.stag-suggest div{
+	padding: 5px 10px;
+}
+.stag-autocomplate{
+	font-family: "Roboto";
+	font-size: 9pt;
+	padding: 7px 10px;
+}
+.stag-autocomplate:hover{
+	/*background-color: #F0F0F0;*/
+}
+.stag-active{
+	background-color: #F0F0F0;
+}
+.stag-suggest{
+	display: none;
+}
+.stag-create{
+	display: none;
+}

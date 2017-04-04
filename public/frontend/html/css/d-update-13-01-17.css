@@ -1,0 +1,59 @@
+/*HEADER ////////////////*/
+	/*menu*/
+.t-catagory {
+    padding-top: 9px !important;
+    padding-bottom: 1px;
+    border-top: solid 1px #D9D9D9;
+    border-bottom: solid 1px #D9D9D9;
+}
+.menu2>ul>li>a {
+	font-family: 'Roboto Bold';
+	/*padding-bottom: 0;*/
+	height: 100%;
+}
+	/*hover menu*/
+.t-sub-mn {
+	width: 150px;
+	top: 32px;
+	box-shadow: none;
+}
+.t-sub-mn li {
+	padding: 5px 10px;
+}
+.t-sub-mn li:first-child {
+	padding-top: 15px;
+}
+.t-sub-mn li:last-child {
+	padding-bottom: 15px;
+}
+.t-sub-mn li:hover {
+	background-color: transparent !important;
+	cursor: pointer;
+}
+.t-sub-mn li:hover a {
+	color: #75005f !important;
+}
+
+
+
+/*Product detail*/
+	/*Ten sp*/
+.d-tensp p:first-child {
+	font-family: 'Roboto Light' !important;
+	font-size: 14pt !important;
+}
+
+	/*mau sac khac*/
+.color-hoho a {
+	border: solid 4px transparent;
+	display: inline-block;
+	border-radius: 15px;
+}
+.color-hoho a.color-hoho-active {
+	border: solid 4px red;
+}
+.color-hoho a img {
+	width: 47px;
+	height: 47px;
+	border-radius: 15px;
+}

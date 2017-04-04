@@ -1,0 +1,467 @@
+/*********c-select*******/
+.tan label{
+    color: #75005f;
+}
+.c-form label::after {
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 50%;
+    content: "";
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: 4px;
+    width: 14px;
+}
+.tan label::after {
+    background: #75005f;
+    border: solid 1px #75005f;
+    box-shadow: inset 0 0 0 2px #fff;
+    width: 14px;
+    height: 14px;
+}
+.c-select h4 {
+    font-family: "Roboto Medium";
+    font-size: 10pt;
+  
+}
+.c-select label {
+    font-size: 9pt;
+}
+.c-form {
+   padding-top: 00px;
+   padding-bottom: 5px;
+}
+.c-form1{
+    padding-top: 0px;
+    padding-bottom: 5px;
+
+}
+.c-form .radio input {
+    opacity: 0;
+}
+.c-form ul li .radio {
+    display: inline-block;
+}
+.c-form ul li .radio input{
+    opacity: 1;
+    margin:0 10px;
+}
+.c-form1 .radio {
+    display: inline-block;
+}
+.c-form1 label {
+    padding-left: 0;
+}
+.c-form1 .radio input {
+    position: absolute;
+    visibility: hidden;
+}
+.c-form1 .radio p {
+    text-align: center;
+    font-size: 8pt;
+    margin-bottom: 0;
+}
+.c-button {
+
+}
+.sanpham {
+    width: 256px;
+    height: 316px;
+}
+.sanpham img {
+    width: 100%;
+}
+.sanpham .thumbnail {
+    border: 0px;
+}
+.caption{
+    margin-top: 8px;
+}
+.caption p {
+    font-family: Roboto ;
+    text-align: center;
+    font-size: 10pt;
+    margin-bottom: 0px;
+}
+.caption span {
+    font-family: Roboto Bold;
+    font-size: 10pt;
+    letter-spacing: 0px;
+}
+.canle {
+    margin-bottom: 20px;
+}
+.relative {
+    position: relative;
+}
+.relative img {
+    width: 100%;
+    height: 100%;
+}
+
+.absolute {
+    position: absolute;
+    text-align: center;
+    top: -2px;
+    width: 100%;
+}
+.absolute span {
+     background: #BC0098;
+     font-family: Roboto;
+     color: #FFFFFF;
+     padding: 3px 8px;
+     border-radius: 3px;
+     font-size: 8pt;
+}
+#orange {
+    background: #FF9900;
+}
+#blue {
+    background: #00B0F0;
+}
+
+.del {
+    text-align: center;
+    position: relative;
+     font-family: Roboto !important;
+     margin-right: 10px;
+}
+.del::before{
+
+    position: absolute;
+    top: 8px;
+    content: "";
+    width: 105%;
+    height: 2px;
+    background: gray;
+}
+.title {
+    font-family: Roboto
+}
+.absolute_img
+{
+   height: 12%;
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+}
+.div_img {
+    text-align: center;
+}
+.div_img li
+{
+    width: 100%;
+    height: 100%;
+    height: 23px;
+    width: 23px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.div_img img {
+     border-radius: 50%;
+    border: solid 2px white;
+
+}
+.tan_page {
+    text-align: center;
+    margin-bottom: -23px;
+}
+.tan_page li {
+    display: inline-block;
+    margin: 5px;
+    margin-right: 15px;
+}
+.tan_page li a {
+    font-size: 10pt;
+    font-family: Roboto;
+}
+.c-form ul li img {
+    border-radius: 50%;
+    border: solid 2px #fff;height:100%;width:100%
+}
+.tan-filter2 {
+    padding: 0px;
+    float: left;
+    margin-bottom: 0px; 
+    
+}
+.tan-filter2 li {
+    margin: 4px;
+}
+    /*hover */
+.tan-filter2 li:hover {
+    cursor: pointer;
+}
+.tan-container
+{
+    padding-top: 0px !important;
+
+}
+.tan-filtersapxep{
+    padding-top: 12px !important;
+    
+}
+.tan-filter3 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  
+}
+.tan-filter3>form>div:last-child{margin-bottom: 0px
+}
+.tan-filtersapxep1 {
+    margin-top: 17px;
+}
+.tan-one {
+    background-color: #d9d9d9 !important;
+    margin-top: 5px !important;
+}
+.tan-bovien1>ul>li{
+    width: 30px !important;
+    height: 30px !important;
+    border: solid 2px #fff;
+}
+.tan-bovienpic>img{
+    border: solid 2px white;
+    box-shadow: 0px 0px 7px #a4a4a4;   
+
+}
+.tan-button {
+    display: none;
+    margin: 20px 0px 25px ; 
+}
+.tan-button>button:first-child {
+    background: white;
+    border: solid 1px #D9D9D9;
+    box-shadow: 0px 0px 10px #d9d9d9;
+    margin-right: 22px;
+    height: 40px;
+    width: 79px;
+    float: left;
+    margin-top: 0px;    
+}
+.tan-button>button>img {
+    height: 21px;
+    width: 21px;
+    opacity: 0.7;
+}
+.tan-button>button:first-child i{
+    color: #9A448A;
+}
+.tan-button>div{
+    background-color: #F2F2F2;
+    border: solid 1px #D9D9D9;
+    height: 40px;
+    width: calc(100% - 101px) !important;
+    font-family: Roboto;
+    font-size: 10pt;
+    margin-right: 0px;
+}
+.tan-background {
+    background: #f2f2f2 url("../images/select-arrow.png") no-repeat 95% 50% !important;
+}
+.tan-background select{
+    padding-top: 7px !important;
+    text-align-last: center; 
+    text-transform: none;
+    letter-spacing: 0.02 em; 
+}
+.tan-background select option {
+    font-family: Roboto;
+    font-size: 10pt;
+}
+.t-page {
+    position: relative;
+}
+.t-page::before{
+    content: "";
+    width: 19px;
+    height: 1px;
+    background: #0d0d0d;
+    position: absolute;
+    top: 33.5px;
+    left: -5px;    
+}
+.menu2 {
+    padding: 13px 0px 12px 20px;
+    border-top: solid 1px #e5e5e5;
+    font-size: 10pt;
+    font-family: Roboto;
+    text-align: center;
+}
+.menu2>ul{
+    display: inline-block;
+}
+.menu2>ul>li {
+    float: left;
+    margin-right: 25px;
+    position: relative;
+}
+.menu2>ul>li>a{
+    color: #404040;
+}
+/**********end- c-select*******/
+
+@media (max-width: 767px) {
+    .tan-button {
+        display: block;
+    }
+}
+.t-catagory>span{
+    text-align: center;
+}
+.t-catagory>ul>li{float:left;}
+.t-sub-mn{
+    font-size: 10pt;
+    background: white;
+    top: 45px;
+    width: 167px;
+    position: absolute;
+    box-shadow: 0px 0px 15px #8E8E8E;
+    font-family: Roboto;
+    border-radius: 5px;
+}
+.t-sub-mn li{
+    padding: 10px 10px; 
+
+}
+.t-sub-mn li:hover{
+    background: #75005F;
+}
+.t-sub-mn>li:first-child:hover{
+    border-radius: 5px 5px 0px 0px; 
+}
+.t-sub-mn>li:last-child:hover{
+    border-radius: 0px 0px 5px 5px; 
+}
+.t-sub-mn li:hover a {
+    color: #FFD9F8;
+}
+.t-sub-mn {
+    opacity: 0;
+    visibility: hidden;
+}
+.t-div-anh{height:320px}
+.t-div-anh img{ border-radius: 6px; }
+.t-div-anh > img{width:100%;height:100%}
+.tan-can-top {
+    margin-top: 35px;
+}
+.tan-ke-bottom {
+    border-bottom: solid 1px #D9D9D9;
+    width: 150px;
+}
+.tan-filter4 ul{
+    float: left;
+    margin-right: 3px;
+}
+.tan-filter4>div{
+    margin-left: 5px; 
+}
+.t-hover-catagory:hover>ul{
+    opacity: 2 !important;
+    visibility: visible !important;
+}
+.t-hover-catagory :hover{
+    color: #75005F;
+}
+.tan-fillter1 {
+    padding-bottom: 0px; 
+}
+.t-box-tim-kiem {
+    width: 290px;
+    box-shadow: 0px 0px 30px #e6e6e6;
+    padding: 20px 0px 20px 20px;
+}
+.t-box-tim-kiem ul li a img{
+    float: left;
+    margin-right: 10px; 
+}
+.t-box-tim-kiem ul li p {
+    margin: 0px;
+    font-family: Roboto;
+    font-size: 9pt;
+    text-align: left;
+}
+.tan-font-RB{
+    font-family: Roboto Bold !important;
+    font-size: 10pt !important;
+}
+.can-le-fillter>li>div {
+    margin:0px; 
+}
+
+
+
+/* edit by duy */
+.d_cate_products {
+    border-top: none !important;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    /* Button #menu-catagory */
+    button.menu-catagory {
+        background: transparent;
+        border: none;
+        margin-top: -4px;
+        margin-left: 15px !important;
+    }
+    .navbar-default .navbar-toggle {
+        background-color: transparent !important;
+    }
+    /* hidden menu-catagory */
+    .t-panel-group> li:nth-child(3) > a {
+        border-bottom: none !important;
+    }
+    .menu2 ul li:nth-child(5) {
+        border-bottom: none;
+    }
+    .menu2 {
+        position: absolute;
+        margin-top: -161px;
+        left: 0px;
+        width: 100%;
+        text-align: left;
+        background-color: #fff;
+        padding: 0px 25px;
+        display: none;
+        opacity: 0;
+    }
+    .menu2-inline {
+        display: inline !important;
+        opacity: 1 !important;
+    }
+    .menu2 ul {
+        display: inline;
+    }
+    .menu2 ul li {
+        clear: both;
+        border-bottom: 1px solid #d9d9d9;
+        width: 100%;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .t-div-anh {
+        margin-top: -30px;
+        margin-left: -25px;
+        margin-right: -25px;
+    }
+    .t-div-anh img {
+        border-radius: 0px;
+    }
+
+    .tan-button {
+        margin-top: 18px;
+    }
+    .tan_page {
+        margin-bottom: -24px;
+    }
+}
+@media (max-width: 767px) {
+    .t-catagory {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+

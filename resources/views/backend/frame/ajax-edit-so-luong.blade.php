@@ -1,0 +1,1 @@
+<input  style="height:40px; width: 80%;padding-left:10px;" type="text" name="sku" value="@if(isset($frame)){!! $frame->sku !!}@else""@endif" >

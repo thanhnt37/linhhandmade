@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+/*icon font*/
+@font-face {
+    font-family: 'Flaticon';
+    src: url(../fonts/Flaticon.eot);
+    src: url(../fonts/Flaticon.woff);
+    src: url(../fonts/Flaticon.ttf);
+}
