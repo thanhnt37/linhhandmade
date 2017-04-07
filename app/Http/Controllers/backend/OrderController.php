@@ -50,7 +50,15 @@ class OrderController extends Controller
         if( session('admin')->can('xem_don_hang') || session('admin')->can('them_don_hang') ){
             $order = Order::find($id);
             if($order){
-                return view('backend.orders.show', compact('order'));  
+                $total_quantity = 0;
+                $total_weight = 0;
+                $order_items = OrderItem::where('order_id',$id)->get();
+                foreach($order_items as $row)
+                {
+                    $total_quantity = $total_quantity + $row->quantity;
+                    $total_weight = $total_weight + $row->weight;
+                }
+                return view('backend.orders.show', compact('order','total_quantity','total_weight'));
             }
             return redirect()->back();
         }
