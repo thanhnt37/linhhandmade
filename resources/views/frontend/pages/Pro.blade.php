@@ -92,6 +92,13 @@
 				<div class="col-md-4  col-sm-12 col-xs-12 sm-margin-bottom-three t-padding-pro">
 					<div class="row">
 						<div class="col-md-12 ">
+							<p>Màu sắc khác</p>
+							<div class="color-hoho">
+
+								@foreach($frame_fillter as $key=> $item)
+									<a href="{!! route('getProDetail',['id'=>$item->id,'slug'=>$item->slug]) !!}" @if($item->id == $product->id) class="color-hoho-active" @endif><img src="{!! $item->img !!}" alt=""></a>
+								@endforeach
+							</div>
 							<div id="d-frame-detail">
 							 @if($product)
 							 <?php $frame_image = App\FrameImage::where('frame_id',$product->id)->get();
@@ -203,13 +210,6 @@
 								}
 								$list_same_attr = DB::table('frame_attributes')->where('frame_attributes.frame_id','<>',$product->id)->whereIn('frame_attributes.attribute_id',$in)->where('frame_attributes.status_frame',1)->take(4)->leftjoin('frames','frame_attributes.frame_id','=','frames.id')->select('frames.*')->get();
 							?>
-							<p>Màu sắc khác</p>
-							<div class="color-hoho">
-
-							@foreach($frame_fillter as $key=> $item)
-								<a href="{!! route('getProDetail',['id'=>$item->id,'slug'=>$item->slug]) !!}" @if($item->id == $product->id) class="color-hoho-active" @endif><img src="{!! $item->img !!}" alt=""></a>
-							@endforeach	
-							</div>
 							<!-- <div class="t-splq">
 								<p style="font-size: 11pt; font-family: 'Roboto Light'">Có thể bạn thích</p>
 								<div class="t-hang">
