@@ -247,6 +247,32 @@
                                       </div>
                                     </td>
                               </tr>
+                              <tr style="background-color: rgba(0, 0, 0, 0) !important;">
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+
+                                  <td colspan="2">
+                                      <div class="col-md-12" style="padding:0px;">
+                                          <span class="text-right"> <h6 style="font-size:14px !important;"> Tổng số lượng: {{number_format($total_quantity, 0, '', '.')}} sản phẩm </h6> </span>
+                                      </div>
+                                  </td>
+                              </tr>
+                              <tr style="background-color: rgba(0, 0, 0, 0) !important;">
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+
+                                  <td colspan="2">
+                                      <div class="col-md-12" style="padding:0px;">
+                                          <span class="text-right"> <h6 style="font-size:14px !important;"> Tổng khối lượng: {{number_format($total_weight, 0, '', '.')}} gam </h6> </span>
+                                      </div>
+                                  </td>
+                              </tr>
                                   @if($percen)
                                     <tr style="background-color: rgba(0, 0, 0, 0) !important;"> 
                                           <td></td>
