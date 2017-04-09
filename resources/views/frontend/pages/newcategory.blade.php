@@ -329,9 +329,10 @@
                     @if(sizeof($frame_y))
                         <div class="col-xs-6 col-sm-4 col-lg-4 col-12-mobile h-res-mar">
                             <div id="d-ajax" class="d-ajax_{!! $data->product_id !!} d-sp d-sp-top text-center " data-id="{!! $data->product_id !!}" style="margin-top: 15px;">
-                                @if($frame_y[0]->label == 1)<div class="moi">Mới</div>@endif
-                                @if($frame_y[0]->label == 2)<div class="kool">Kool</div>@endif
-                                @if($frame_y[0]->label == 3)<div class="off">Sale</div>@endif
+                                @if($frame_y[0]->price_sale > 0)<div class="off">Dọn kho</div>
+                                @elseif($frame_y[0]->label == 1)<div class="moi">Mới</div>
+                                @elseif($frame_y[0]->label == 2)<div class="kool">Kool</div>
+                                @elseif($frame_y[0]->label == 3)<div class="off">Dọn kho</div>@endif
                                 <a class="d-list-xem" data-id="{!! $frame_y[0]->id !!}" href="{!! Route('getProDetail',['id'=>$frame_y[0]->id,'slug'=>$frame_y[0]->slug]) !!}"><img src="{{ $frame_y[0]->img }}" alt=""></a>
                                 <div class="absolute_img tan-bovien"> 
                                     <ul class="div_img">
